@@ -29,6 +29,8 @@ main.py conduct the data preprocessing and run the chosen model for each task an
 
 The estimated time of running main.py is 1465.82s on a laptop with 16.0 GB memory and NVIDIA GTX 1650 Ti, with CUDA.
 
+It should be noted that the result of A1, B1, and B2 will change slightly each run, due to Dropout.
+
 ## 2. Packages
 Version:
   python 3.8.3, keras 2.3.1, tensorflow 2.2.0.
