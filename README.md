@@ -36,5 +36,5 @@ Version:
   python 3.8.3, keras 2.3.1, tensorflow 2.2.0.
   
 Packages:
-  numpy, scipy, tensorflow, Keras, pandas, os, tqdm, scikit
+  numpy, scipy, tensorflow, keras, pandas, os, tqdm, scikit
     
