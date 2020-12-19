@@ -12,7 +12,7 @@
    * 'CNN_A1' : a convolutional neural network which contains 3 convolutional layers and 3 fully connected layers
    
    The sturcture of CNN:
-   ![CNN](C:\学习资料\AMLS_20-21_SN20059361\graphs\CNN_flow.png)
+   ![CNN](C:\LEARNING\AMLS_20-21_SN20059361\graphs\CNN_flow.png)
     
   In 'A2', there are 4 .py files, each of which was tried to conduct a machine learning model for CeleA facial expression (smiling) classification (A2) of the project:
    * 'LR_A2' : a logistic regression model.
