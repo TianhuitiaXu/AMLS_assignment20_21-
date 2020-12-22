@@ -41,10 +41,18 @@ def img_SVM(training_images, training_labels, val_images, val_labels, test_image
     pred_tr = classifier.predict(training_images)
     pred_cv = classifier.predict(val_images)
     pred_te = classifier.predict(test_images)
-    accu_tr = accuracy_score(test_labels,pred_te)
+    accu_te = accuracy_score(test_labels,pred_te)
     accu_cv = accuracy_score(val_labels,pred_cv)
-    accu_te = accuracy_score(training_labels,pred_tr)
+    accu_tr = accuracy_score(training_labels,pred_tr)
     return accu_tr, accu_cv, accu_te
+
+# def img_SVM(x_train,y_train,x_test,y_test):
+#     clf = SVC(kernel='linear', C=1, random_state=0)
+#     scores = cross_val_score(clf, x_train, y_train, cv=5)
+#     pred_te = clf.predict(x_test)
+#     accu_te = accuracy_score(y_test,pred_te)
+#     return scores,accu_te
+
 # pred_C = []
 # C = [0.1,0.5,1,2,5,10]
 # D = [1,3,5]
