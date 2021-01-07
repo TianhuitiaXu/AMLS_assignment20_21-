@@ -28,7 +28,7 @@
    * 'MLP_B2' : a MLP model which contains 3 fully connected layers
    * 'CNN_B2' : a convolutional neural network which contains 3 convolutional layers and 3 fully connected layers
   
-main.py conduct the data preprocessing (normalisation, data augmentation, landmark extraction) and run the chosen model for each task and return the train_loss, train_acc, val_loss, val_acc, test_loss, test_acc for each task, respectively. (**There is a typo in the report, where the Train Acc of B2 should be 92.90 rather than 0.929! Besides, the Train Acc and Test Acc for A2 were written reversed.**)
+main.py conduct data preprocessing (e.g. normalization, data augumentation, face landmark extraction, removing occluded images (e.g. with glasses)) and run the chosen model for each task and return the train_loss, train_acc, val_loss, val_acc, test_loss, test_acc for each task, respectively. (**There is a typo in the report, where the Train Acc of B2 should be 92.90 rather than 0.929! Besides, the Train Acc and Test Acc for A2 were written reversed.**)
 
 The estimated time of running main.py is 1465.82s on a laptop with 16.0 GB memory and NVIDIA GTX 1650 Ti, with CUDA.
 
